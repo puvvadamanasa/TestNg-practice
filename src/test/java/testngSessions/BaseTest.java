@@ -25,7 +25,7 @@ public class BaseTest {
 			driver = new EdgeDriver();
 		}
 		else {
-			System.out.println("Please pass right browserName");
+			System.out.println("Please pass right browser");
 		}
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
